@@ -1,6 +1,5 @@
 .header-container {
-  background-color: #333;
-  padding: 10px;
+  text-align: right;
 }
 
 .header-container nav ul {
@@ -11,11 +10,15 @@
 
 .header-container nav ul li {
   display: inline-block;
-  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.header-container nav ul li:first-child {
+  margin-left: 0;
 }
 
 .header-container nav ul li a {
-  color: #fff;
+  color: #333;
   text-decoration: none;
   font-weight: bold;
 }
