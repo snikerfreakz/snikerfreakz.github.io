@@ -1,9 +1,14 @@
 .header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
   background-color: #f5f5f5;
+  z-index: 100;
 }
 
 .logo {
@@ -27,4 +32,9 @@
   color: #333;
   text-decoration: none;
   font-weight: bold;
+}
+
+/* Add spacing below the header container */
+body {
+  padding-top: 80px; /* Adjust the value as needed */
 }
