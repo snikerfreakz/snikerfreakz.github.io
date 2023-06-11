@@ -1,6 +1,5 @@
 .header-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -8,6 +7,7 @@
   margin: 0;
   font-size: 20px;
   font-weight: bold;
+  margin-right: 30px; /* Adjust margin as needed */
 }
 
 .header-container nav ul {
@@ -18,11 +18,7 @@
 
 .header-container nav ul li {
   display: inline-block;
-  margin-left: 10px;
-}
-
-.header-container nav ul li:last-child {
-  margin-right: 50px; /* Add more space here */
+  margin-left: 30px;
 }
 
 .header-container nav ul li a {
